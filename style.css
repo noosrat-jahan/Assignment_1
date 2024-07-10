@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    line-height: 24px;
 }
 
 
@@ -29,6 +30,7 @@
     padding: 12px 22px 12px 22px;
     font-size: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* header section starts here */
@@ -36,7 +38,7 @@
     width: 1280px;
     height: 580.30px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: rgba(255, 255, 255, 0.2);
     background-image: url('assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -54,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 28px;
+    gap: 26px;
     text-align: center;
 }
 
@@ -75,14 +77,16 @@
     color: white;
     background: none;
     background-color: rgb(13, 19, 33);
-    padding: 15px 20px;
+    padding: 14px 19px;
     border-radius: 8px;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .contact_with_me_btn a{
     text-decoration: none;
     color: white;
+    transition: all 1s;
 }
 
 
@@ -252,6 +256,7 @@ iframe{
     align-items: center;
     justify-content: space-evenly;
     gap: 15px;
+    margin-top: 30px;
 
 }
 
