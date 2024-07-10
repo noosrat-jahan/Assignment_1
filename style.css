@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    line-height: 24px;
+    /* line-height: 24px; */
 }
 
 
@@ -60,14 +60,12 @@
     text-align: center;
 }
 
-.banner_sub_section h1{
-    
+.banner_sub_section h1{    
     font-size: 35px;
     font-weight: 800;
 }
 
-.banner_sub_section p{
-    
+.banner_sub_section p{    
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
@@ -108,8 +106,7 @@
 .why_development_subsection{
     width: 842px;
     height: 1099px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 
     display: flex;
     flex-direction: column;
@@ -129,7 +126,6 @@
     font-weight: 800; 
      
 }
-
 
 .why_development_subsection p{
     font-size: 16px;
@@ -169,6 +165,7 @@
     text-align: justify;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+
 
 .why_development_subsection button{
     color: rgb(13, 19, 33);
@@ -364,7 +361,6 @@ iframe{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 
 .text a{
     color: rgb(13, 19, 33);
