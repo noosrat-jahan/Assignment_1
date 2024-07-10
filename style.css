@@ -355,6 +355,18 @@ iframe{
     gap: 30px;
 }
 
+.text p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.text a{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .my_next_target_section img{
     width: 100px;
     height: 100px;
